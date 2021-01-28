@@ -1,0 +1,14 @@
+version 1.1
+
+* Fixed arithmetic mistake in tail criterion approximation method computation
+* Provided option in tail criterion approximation computation to not use debiased frobenius norm squared estimator
+* Fixed bugs in plotting
+* Fixed bug when setting skip_search_length > 1
+* Fixed bug in printing out dots for progress
+* Fixed bug for p = 1 in the tail approximation criterion method computation
+* Wrapped intermittent errors in the Buckley-Eagleson method in a tryCatch for execution
+* Fixed a bug in the tail criterion computation when p=1
+
+version 1.0
+
+* Initial Release
